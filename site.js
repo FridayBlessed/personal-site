@@ -204,7 +204,7 @@
                     if (i < text.length) {
                         heroDescription.textContent += text.charAt(i);
                         i++;
-                        setTimeout(typeWriter, 2000);
+                        setTimeout(typeWriter, 100);
                     }
                 };
                 
