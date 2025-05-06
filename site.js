@@ -195,7 +195,7 @@
             
             // Typing animation for hero text
             const typingAnimation = () => {
-                const text = "Front-end Developer & UI/UX Designer";
+                const text = "Front-end Developer";
                 const heroDescription = document.querySelector('.hero-description');
                 heroDescription.textContent = '';
                 
@@ -204,7 +204,7 @@
                     if (i < text.length) {
                         heroDescription.textContent += text.charAt(i);
                         i++;
-                        setTimeout(typeWriter, 100);
+                        setTimeout(typeWriter, 2000);
                     }
                 };
                 
