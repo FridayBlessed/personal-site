@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rebeccapurple;
+    background-color: white;
     color: #333;
     line-height: 1.6;
     overflow-x: hidden;
@@ -135,7 +135,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #3d57cf;
+    background-color: red;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(82, 113, 255, 0.2);
 }
@@ -368,7 +368,7 @@ textarea.form-control {
 }
 
 .social-icon:hover {
-    background-color: #5271ff;
+    background-color: red;
     transform: translateY(-3px);
 }
 
