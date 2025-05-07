@@ -32,13 +32,6 @@ body {
     height: 70px;
 }
 
-.logo {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #5271ff;
-    cursor: pointer;
-}
-
 .nav-links {
     display: flex;
     list-style: none;
