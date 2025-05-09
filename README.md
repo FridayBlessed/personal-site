@@ -16,15 +16,15 @@ This Repository contains the source code for my personal website. It includes HT
   - JavaScript.
 
   ### Font Used
-
-  ```Css  
+      Css
+  ```
 
      {
     font-family: "Raleway", sans-serif;
 ```
 } 
 ``` HTML
-`  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> `
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
 ``` 
   ### Installation
   1. Clone this repository
