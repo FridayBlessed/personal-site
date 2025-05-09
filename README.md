@@ -16,10 +16,14 @@ This Repository contains the source code for my personal website. It includes HT
   - JavaScript.
 
   ### Font Used
-     CSS 
-  ```
 
-     {
+     
+
+       CSS 
+  
+
+```
+ {
  font-family: "Raleway", sans-serif;
 }
 ```
