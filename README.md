@@ -23,19 +23,19 @@ This Repository contaisn the source code for my personal website. It includes HT
     font-family: "Raleway", sans-serif;
 
 } 
-```
+``` HTML
 `  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> `
-
+``` 
   ### Installation
   1. Clone this repository
 
-  ``` git clone https://github.com/FridayBlessed/Personal-site.git```
+  `` git clone https://github.com/FridayBlessed/Personal-site.git``
 
   2. Navigate to the Project Folder:
-  ``` Bash
+   Bash
       cd Personal-site
       
-      ```
+      
 
    3. Open portfolio.html in your browser or run with a local server.
 
