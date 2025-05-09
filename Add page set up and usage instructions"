@@ -37,7 +37,7 @@ This Repository contaisn the source code for my personal website. It includes HT
       ```
    3. Open portfolio.html in your browser or run with a local server.
 
-   ### Deployment
+   ### Deployment.
 
    The website is deployed using [vercel](vercel.com), and can be deployed at [Live preview](https://personal-site-ten-flax-25.vercel.app/)
   
