@@ -16,8 +16,9 @@ This Repository contains the source code for my personal website. It includes HT
   - JavaScript.
 
   ### Font Used
-      CSS
-  ```Css
+      
+  ```
+  Css
 
      {
  font-family: "Raleway", sans-serif;
