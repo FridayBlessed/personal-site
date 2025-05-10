@@ -23,7 +23,7 @@ This Repository contaisn the source code for my personal website. It includes HT
 ```
 } 
 
-`` <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> ``
+``` <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> ```
 
   ### Installation
   1. Clone this repository
@@ -32,9 +32,8 @@ This Repository contaisn the source code for my personal website. It includes HT
 
   2. Navigate to the Project Folder:
 
-   Bash
    
-      cd Personal-site
+    bBash cd Personal-site
       
    3. Open portfolio.html in your browser or run with a local server.
 
