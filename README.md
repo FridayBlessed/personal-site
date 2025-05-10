@@ -1,13 +1,6 @@
-<<<<<<< HEAD
 # MY PERSONAL WEBSITE
 
 This Repository contaisn the source code for my personal website. It includes HTML, CSS & JAVASCRIPT.
-=======
-
-# MY PERSONAL WEBSITE
-
-This Repository contains the source code for my personal website. It includes HTML, CSS & JAVASCRIPT.
->>>>>>> 26438296b1bfcb19b4564f0d24e1700291c736d6
 
 ## Features.
 
@@ -22,7 +15,6 @@ This Repository contains the source code for my personal website. It includes HT
   - JavaScript.
 
   ### Font Used
-<<<<<<< HEAD
 
   ```Css  
 
@@ -47,35 +39,5 @@ This Repository contains the source code for my personal website. It includes HT
 
    ### Deployment
 
-   The website is deployed using [vercel](vercel.com), and can be deployed at [Live preview](https://personal-site-ten-flax-25.vercel.app/)
-=======
- Css 
-```
- {
- font-family: "Raleway", sans-serif;
-}
-```
-HTML
-``` HTML
- <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
-``` 
-  ### Installation
-  1. Clone this repository
-
-  `` git clone https://github.com/FridayBlessed/Personal-site.git``
-
-  2. Navigate to the Project Folder:
-   Bash
-      cd Personal-site
-      
-      
-
-   3. Open portfolio.html in your browser or run with a local server.
-
-   ### Deployment.
-
-   The website is deployed using **Vercel**
-
-   Check live [WEBSITE](https://personal-site-ten-flax-25.vercel.app/)
->>>>>>> 26438296b1bfcb19b4564f0d24e1700291c736d6
+   The website is deployed using **Vercel**, Checkout the _live_ [WEBSITE](https://personal-site-ten-flax-25.vercel.app/)
   
