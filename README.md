@@ -19,9 +19,9 @@ This Repository contaisn the source code for my personal website. It includes HT
   ```Css  
 
      {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif; }
 ```
-} 
+
 ```
  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 ```
