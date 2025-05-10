@@ -248,7 +248,11 @@
             highlightNav();
         });
 
+<<<<<<< HEAD
         document.getElementById("form-group").addEventListener("submit", function(e) {
+=======
+ document.getElementById("form-group").addEventListener("submit", function(e) {
+>>>>>>> 26438296b1bfcb19b4564f0d24e1700291c736d6
             e.preventDefault(); // Prevent default form submission behavior
             
 
@@ -271,4 +275,8 @@
         .then(msg => alert("Message sent: " + msg))
         .catch(err => alert("Error: " + err.message));
         
+<<<<<<< HEAD
         }); 
+=======
+        }); 
+>>>>>>> 26438296b1bfcb19b4564f0d24e1700291c736d6
