@@ -43,5 +43,5 @@ HTML
 
    The website is deployed using **Vercel**
 
-   Check live [https://personal-site-ten-flax-25.vercel.app/](WEBSITE)
+   Check live [WEBSITE](https://personal-site-ten-flax-25.vercel.app/)
   
