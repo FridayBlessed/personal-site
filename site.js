@@ -247,3 +247,28 @@
             // Run once on page load
             highlightNav();
         });
+
+ document.getElementById("form-group").addEventListener("submit", function(e) {
+            e.preventDefault(); // Prevent default form submission behavior
+            
+
+        const name = this.name.value;
+        const email = this.email.value;
+        const message = this.message.value;
+        
+        fetch ("https://localhost:3000/send", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                name: name,
+                email: email,
+                message: message
+            })
+        })
+        .then(res => res.text())
+        .then(msg => alert("Message sent: " + msg))
+        .catch(err => alert("Error: " + err.message));
+        
+        }); 
