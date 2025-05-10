@@ -1,6 +1,6 @@
 # MY PERSONAL WEBSITE
 
-This Repository contaisn the source code for my personal website. It includes HTML, CSS & JAVASCRIPT.
+This Repository contains the source code for my personal website. It includes HTML, CSS & JAVASCRIPT.
 
 ## Features.
 
