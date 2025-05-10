@@ -29,7 +29,9 @@ This Repository contaisn the source code for my personal website. It includes HT
   ### Installation
   1. Clone this repository
 
-  ``` git clone https://github.com/FridayBlessed/Personal-site.git```
+  ```
+  git clone https://github.com/FridayBlessed/Personal-site.git
+```
 
   2. Navigate to the Project Folder:
 
