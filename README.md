@@ -41,5 +41,7 @@ HTML
 
    ### Deployment.
 
-   The website is deployed using [vercel](vercel.com) 
+   The website is deployed using **Vercel**
+
+   Check live [https://personal-site-ten-flax-25.vercel.app/](WEBSITE)
   
