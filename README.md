@@ -1,15 +1,15 @@
-# MY PERSONAL WEBSITE
+# MY PERSONAL WEBSITE 💻
 
 This Repository contains the source code for my personal website. It includes HTML, CSS & JAVASCRIPT.
 
 ## Features.
 
  - Responsive design for desktop and mobile
-  - Clean and modern layout
+  - Clean and modern layout 🏙️
   - Easy to navigate sections (About, Projects, etc.)
-  - typing animation.
 
-  ## Technologies Used
+
+  ## Technologies Used ⚒️
   - HTML5
   - CSS3
   - JavaScript.
