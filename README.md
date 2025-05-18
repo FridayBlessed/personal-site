@@ -9,7 +9,7 @@ This Repository contains the source code for my personal website. It includes HT
   - Easy to navigate sections (About, Projects, etc.)
 
 
-  ## Technologies Used ⚒️
+  ##  🛠 Technologies Used 
   - HTML5
   - CSS3
   - JavaScript.
