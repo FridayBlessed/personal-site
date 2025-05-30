@@ -27,7 +27,7 @@ This Repository contains the source code for my personal website. It includes HT
 ```
 
   ### Installation
-  1. Clone this repository
+  1. Clone this repository.
 
   ```
   git clone https://github.com/FridayBlessed/Personal-site.git
