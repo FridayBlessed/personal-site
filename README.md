@@ -14,7 +14,7 @@ This Repository contains the source code for my personal website. It includes HT
   - CSS3
   - JavaScript.
 
-  ### Font Used
+  ### Font Used.
 
   ```Css  
 
