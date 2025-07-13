@@ -96,11 +96,7 @@
                 });
             });
 
-            // Contact form submission and validation
-            if (submitBtn) {
-                submitBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-
+           
                     // Basic form validation
                     let isValid = true;
                     const name = document.getElementById('name').value;
@@ -145,7 +141,7 @@
                         }, 1500);
                     }
                 });
-            }
+            
             
             // Dynamic element animations when scrolling into view
             const animateOnScroll = () => {
@@ -248,4 +244,4 @@
             
             // Run once on page load
             highlightNav();
-        });
+        
