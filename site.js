@@ -244,4 +244,30 @@
             
             // Run once on page load
             highlightNav();
+
+            document.addEventListener('DOMContentLoaded', () => {
+    const heroDescription = document.querySelector('.hero-description');
+    const text = "Hello, I'm Friday Blessed";
+    let index = 0;
+    let cursorVisible = true;
+
+    function typeWriter() {
+        if (index <= text.length) {
+            heroDescription.innerHTML = text.substring(0, index) + (cursorVisible ? '|' : '');
+            index++;
+            setTimeout(typeWriter, 120); // typing speed
+        } else {
+            blinkCursor(); // Start blinking cursor after typing
+        }
+    }
+
+    function blinkCursor() {
+        setInterval(() => {
+            cursorVisible = !cursorVisible;
+            heroDescription.innerHTML = text + (cursorVisible ? '|' : '');
+        }, 500); // blinking speed
+    }
+
+    typeWriter();
+});
         
