@@ -5,9 +5,7 @@
             const hamburger = document.querySelector('.hamburger');
             const navLinks = document.querySelector('.nav-links');
             const navLinksItems = document.querySelectorAll('.nav-links a');
-            const submitBtn = document.getElementById('submit-btn');
             const formInputs = document.querySelectorAll('.form-control');
-            const projectCards = document.querySelectorAll('.project-card');
             
             // Mobile navigation toggle
             hamburger.addEventListener('click', () => {
@@ -97,50 +95,7 @@
             });
 
            
-                    // Basic form validation
-                    let isValid = true;
-                    const name = document.getElementById('name').value;
-                    const email = document.getElementById('email').value;
-                    const message = document.getElementById('message').value;
-
-                    if (!name || !email || !message) {
-                        isValid = false;
-                        alert('Please fill in all fields');
-                        return;
-                    }
-
-                    // Email validation
-                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-                    if (!emailRegex.test(email)) {
-                        isValid = false;
-                        alert('Please enter a valid email address');
-                        return;
-                    }
-
-                    if (isValid) {
-                        // Simulating form submission
-                        this.innerHTML = 'Sending...';
-                        this.disabled = true;
-
-                        // Simulate API call delay
-                        setTimeout(() => {
-                            this.innerHTML = 'Message Sent!';
-                            this.style.backgroundColor = '#4CAF50';
-
-                            // Reset form
-                            document.getElementById('name').value = '';
-                            document.getElementById('email').value = '';
-                            document.getElementById('message').value = '';
-
-                            // Reset button after 3 seconds
-                            setTimeout(() => {
-                                this.innerHTML = 'Send Message';
-                                this.style.backgroundColor = '#5271ff';
-                                this.disabled = false;
-                            }, 3000);
-                        }, 1500);
-                    }
-                });
+                   
             
             
             // Dynamic element animations when scrolling into view
@@ -269,5 +224,5 @@
     }
 
     typeWriter();
-});
-        
+            });
+        });
