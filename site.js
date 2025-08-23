@@ -93,10 +93,6 @@
                     }
                 });
             });
-
-           
-                   
-            
             
             // Dynamic element animations when scrolling into view
             const animateOnScroll = () => {
