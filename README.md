@@ -5,7 +5,7 @@ This Repository contains the source code for my personal website. It includes HT
 ## Features.
 
  - Responsive design for desktop and mobile
-  - Clean and modern layout 🏙️
+  - Clean and modern layout.
   - Easy to navigate sections (About, Projects, etc.)
 
 
