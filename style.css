@@ -128,7 +128,7 @@ body {
 }
 
 .btn:hover {
-     background: linear-gradient(to bottom, indigo, purple, hotpink); 
+     background: linear-gradient(to bottom, indigo, violet, hotpink); 
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(82, 113, 255, 0.2);
 }
