@@ -196,29 +196,34 @@
             // Run once on page load
             highlightNav();
 
-            document.addEventListener('DOMContentLoaded', () => {
-    const heroDescription = document.querySelector('.hero-description');
-    const text = "Hello, I'm Friday Blessed";
-    let index = 0;
-    let cursorVisible = true;
-
-    function typeWriter() {
-        if (index <= text.length) {
-            heroDescription.innerHTML = text.substring(0, index) + (cursorVisible ? '|' : '');
-            index++;
-            setTimeout(typeWriter, 120); // typing speed
-        } else {
-            blinkCursor(); // Start blinking cursor after typing
-        }
-    }
-
-    function blinkCursor() {
-        setInterval(() => {
-            cursorVisible = !cursorVisible;
-            heroDescription.innerHTML = text + (cursorVisible ? '|' : '');
-        }, 500); // blinking speed
-    }
-
-    typeWriter();
-            });
         });
+ const text = "Front-end Developer.";
+let index = 0;
+let letter = "";
+let isDeleting = false;
+
+const typingElement = document.querySelector(".hero-description");
+
+function type() {
+  if (isDeleting) {
+    letter = text.slice(0, --index);
+  } else {
+    letter = text.slice(0, ++index);
+  }
+
+  typingElement.textContent = letter;
+
+  let speed = isDeleting ? 80 : 120; // typing & deleting speed
+
+  if (!isDeleting && index === text.length) {
+    speed = 1500; // pause before deleting
+    isDeleting = true;
+  } else if (isDeleting && index === 0) {
+    isDeleting = false;
+    speed = 500; // pause before typing again
+  }
+
+  setTimeout(type, speed);
+}
+
+type();
