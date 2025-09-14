@@ -361,7 +361,7 @@ textarea.form-control {
 }
 
 .social-icon:hover {
-    background-color: indigo;
+    background-color: orangered;
     transform: translateY(-3px);
 }
 
@@ -431,5 +431,5 @@ textarea.form-control {
 }
 
 .highlight{
-    color: indigo;
+    color: orangered; 
 }
