@@ -128,7 +128,7 @@ body {
 }
 
 .btn:hover {
-     background: linear-gradient(to bottom, skyblue, darkblue, blue); 
+     background: linear-gradient(90deg, #134e5e, #0c3c56, #000000); 
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(82, 113, 255, 0.2);
 }
