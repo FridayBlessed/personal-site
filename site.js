@@ -197,12 +197,12 @@
             highlightNav();
 
         });
- const text = "Front-end Developer.";
+ const text = "Friday Blessed";
 let index = 0;
 let letter = "";
 let isDeleting = false;
 
-const typingElement = document.querySelector(".hero-description");
+const typingElement = document.querySelector(".highlight");
 
 function type() {
   if (isDeleting) {
