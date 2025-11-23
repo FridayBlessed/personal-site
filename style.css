@@ -480,3 +480,7 @@ textarea.form-control {
         line-height: 1;
     }
 }
+
+.about-content{
+    text-align: center;
+}
