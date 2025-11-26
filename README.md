@@ -1,4 +1,4 @@
-# MY PERSONAL WEBSITE 💻
+# MY PERSONAL WEBSITE 
 
 This Repository contains the source code for my personal website. It includes HTML, CSS & JAVASCRIPT.
 
@@ -9,7 +9,7 @@ This Repository contains the source code for my personal website. It includes HT
   - Easy to navigate sections (About, Projects, etc.)
 
 
-  ##  🛠 Technologies Used 
+  ##   Technologies Used 
   - HTML5
   - CSS3
   - JavaScript.
@@ -42,5 +42,5 @@ This Repository contains the source code for my personal website. It includes HT
 
    ### Deployment
 
-   The website is deployed using **Vercel**, Checkout the _live_ [WEBSITE](https://personal-site-ten-flax-25.vercel.app/).
+   The website is deployed using **Vercel**, Checkout the _live_ [WEBSITE](https://blessed-iota.vercel.app/).
   
